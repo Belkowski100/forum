@@ -1,0 +1,31 @@
+.main {
+    padding: 25px;
+}
+
+.posts {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+}
+
+.main h4 {
+    font-size: 18px;
+    color: darkblue;
+    padding: 20px 30px;
+    border-bottom: 1px solid lightblue;
+}
+
+.main article {
+    padding: 30px;
+    border-bottom: 1px solid lightblue;
+}
+
+.main h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #082b48;
+}
+
+.main p {
+    color: #66789e;
+    line-height: 180%;
+}

@@ -1,0 +1,48 @@
+.footer {
+    background-color: #354351;
+    color: white;
+    text-align: center;
+    padding: 25px 25px 70px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.socials p {
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.socials p:hover {
+    background-color: #EF433F;
+}
+
+
+.socials p:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.scroll-top {
+    display: none;
+    background-color: #EF433F;
+    border: none;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.scroll-top:focus {
+    outline: none;
+}
